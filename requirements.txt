@@ -1,0 +1,18 @@
+# Core Quantum & ML Stack
+qiskit>=2.0.0
+qiskit-machine-learning>=0.9.0
+scikit-learn>=1.6.0
+scipy>=1.15.0
+
+# Data Processing & Storage
+numpy>=2.0.0
+pandas>=2.2.0
+pyarrow>=18.0.0
+
+# Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.0
+
+# Interactive Environment
+jupyterlab>=4.3.0
+ipywidgets>=8.1.0
