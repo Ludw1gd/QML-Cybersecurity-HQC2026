@@ -11,13 +11,13 @@ Proyek riset defensif dan komputasi ilmiah untuk mata kuliah **Quantum Computing
 
 ## 👥 Tim Peneliti / Anggota Kelompok
 
-| No. | Nama Mahasiswa | NRP | Peran |
-| :---: | :--- | :---: | :--- |
-| 1 | **Rafael Gunawan** | 5027231019 | Quantum Algorithm & Architecture |
-| 2 | **Muhammad Nafi Firdaus** | 5027231045 | Data Integrity & Leakage Audit |
-| 3 | **Abhirama Triadyatama Hermawan** | 5027231061 | Classical Baseline & Benchmark |
-| 4 | **Danendra Fidel Khansa** | 5027231063 | Preprocessing & Feature Engineering |
-| 5 | **Tio Axellino Irin** | 5027231065 | Pipeline Integration & Evaluation |
+| No. | Nama Mahasiswa | NRP |
+| :---: | :--- | :---: |
+| 1 | **Rafael Gunawan** | 5027231019 |
+| 2 | **Muhammad Nafi Firdaus** | 5027231045 |
+| 3 | **Abhirama Triadyatama Hermawan** | 5027231061 |
+| 4 | **Danendra Fidel Khansa** | 5027231063 |
+| 5 | **Tio Axellino Irin** | 5027231065 |
 
 **Dosen Pengampu / Acuan Modul:** Dr. Hatma Suryotrisongko (Modul Ajar Bab 6: *HQC-2026 untuk Quantum Machine Learning*, 2026).
 
@@ -30,7 +30,7 @@ Riset ini mengusung prinsip transparansi ilmiah penuh (*Zero False Claims*) dala
 1. **Audit vs Halaman Publik:**
    - Membuktikan secara empiris kesenjangan antara klaim publik Mendeley (klaim 14,69 juta baris, seimbang via SMOTE) vs artefak fisik Parquet aktual (233.844 baris dengan ketimpangan ekstrem: Benign mendominasi 75,99%).
 2. **Eksploitasi & Pembuktian Target Leakage:**
-   - Menemukan redundansi deterministik: $\text{sifted\_key\_rate} = 1 - \text{qber}$ dan $\delta = \text{qber} - 0.01$.
+   - Menemukan redundansi deterministik: `sifted_key_rate = 1 - qber` dan `_delta = qber - 0.01`.
    - Mengungkap *target leakage* fatal pada fitur `is_anomalous_qkd == 1` yang mencakup **100% sampel serangan**. Tanpa pembersihan fitur ini, model akan mencapai metrik artifisial 100% akurasi semu.
 3. **Benchmarking QSVC vs Classical:**
    - Melakukan mitigasi kebocoran data dengan isolasi fitur kuantum autentik.
